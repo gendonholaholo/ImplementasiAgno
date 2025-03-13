@@ -1,7 +1,8 @@
 **Agno Web Application**
 **Pendahuluan**
 Aplikasi ini adalah implementasi sederhana dari **Agno**, menggunakan **FastAPI** untuk backend dan **React** untuk frontend. Backend memproses teks menggunakan Agno dan frontend menyediakan antarmuka pengguna.
-**Struktur Direktori**
+**Struktur Direktori**  
+```
 agno-app/  
 │── backend/                   # Backend menggunakan FastAPI  
 │   ├── main.py                # Entry point backend  
@@ -29,6 +30,7 @@ agno-app/
 │── .env                       # Environment variables  
 │── docker-compose.yml         # File Docker untuk deploy  
 │── README.md                  # Dokumentasi utama proyek  
+```
 **Instalasi & Menjalankan Aplikasi**
 **Menjalankan Backend**
 ```
