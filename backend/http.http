@@ -1,0 +1,13 @@
+# Cek root endpoint
+GET http://127.0.0.1:8000/
+Accept: application/json
+
+###
+
+# Cek endpoint proses Agno
+POST http://127.0.0.1:8000/process-agno
+Content-Type: application/json
+
+{
+  "input_text": "Hello Agno"
+}
